@@ -14,7 +14,7 @@ class MainActivity : YouTubeBaseActivity(), YouTubePlayer.OnInitializedListener 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        viewYoutube.initialize("AIzaSyA6L-XrMkC8RFWuE2XxweYKXJ_xu_RgWPA",this)
+        viewYoutube.initialize("#####",this)
 
     }
 
